@@ -44,7 +44,7 @@ df_hist[["accuracy", "val_accuracy"]].plot(ax=axes[1]).set_title("accuracy : val
 ```
 
 ### (2) 해결방안 모색
-1. 불용어(Stop_words) 제거
+1. ~~불용어(Stop_words) 제거~~
 2. Tokenizer 파라미터 변경
 3. pad_sequences 파라미터 변경
 4. train, validation 데이터셋 나눌 때 비율 조절
