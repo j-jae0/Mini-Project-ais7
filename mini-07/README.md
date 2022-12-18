@@ -51,4 +51,3 @@ df_hist[["accuracy", "val_accuracy"]].plot(ax=axes[1]).set_title("accuracy : val
 5. 옵티마이저 변경
 6. 활성화함수 변경
 7. 모델 레이어 구성 변경(BatchNormalization, Dropout등 층 추가)
-+ .. 고민 필요
