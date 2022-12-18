@@ -4,11 +4,11 @@
 
 ## 1. Emotions_in_text_NLP.ipynb
 ### (1) 과대적합 이슈 
-
 <div style="text-align : center;">
-<img src="https://ifh.cc/g/tJApCX.jpg" width="500">
-</div>
+<img src="https://ifh.cc/g/tJApCX.jpg">
+<br>
 <small>Fig 1. 아래 코드에 대한 손실(loss) 및 정확도(accuracy) 그래프</small>
+</div>
 
 ```python
 # 1. 모델 구축 (레이어 쌓기)
