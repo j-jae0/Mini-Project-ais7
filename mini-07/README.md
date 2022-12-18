@@ -51,3 +51,17 @@ df_hist[["accuracy", "val_accuracy"]].plot(ax=axes[1]).set_title("accuracy : val
 5. 옵티마이저 변경
 6. 활성화함수 변경
 7. 모델 레이어 구성 변경(BatchNormalization, Dropout등 층 추가)
+
+## 2. (1) Remove_stop_words.ipynb
+해당 파일은 이전 **Emotions_in_text_NLP.ipynb**에 불용어 처리 과정을 추가한 것이다.<br>
+**결과** : 과대적합 해결 X
+
+<div style="text-align : center;">
+<img src="https://ifh.cc/g/5gsZsv.jpg" width="75%">
+<br>
+<small>Fig 2. 불용어 처리 후, 손실(loss) 및 정확도(accuracy) 그래프</small>
+</div>
+
+- 불용어 처리 전, 후 차이점
+  - 텍스트 자체의 길이가 줄어들었음
+  - padding 과정에서 maxlen을 작게 설정함
