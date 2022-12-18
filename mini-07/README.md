@@ -62,6 +62,12 @@ df_hist[["accuracy", "val_accuracy"]].plot(ax=axes[1]).set_title("accuracy : val
 <small>Fig 2. 불용어 처리 후, 손실(loss) 및 정확도(accuracy) 그래프</small>
 </div>
 
-- 불용어 처리 전, 후 차이점
+<br>
+
+- Fig 2에서 보이는 그래프는 Fig 1에서 사용된 코드와 일치함
+- 차이가 있다면 불용어 제거 유무임
+
+- **불용어 처리 전, 후 차이점**
   - 텍스트 자체의 길이가 줄어들었음
   - padding 과정에서 maxlen을 작게 설정함
+  - 모델 학습 속도가 줄어들었음(simple RNN 모델에선 에포크당 속도가 약 2배 차이)
