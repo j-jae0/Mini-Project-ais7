@@ -1,6 +1,7 @@
 # Emotions in Text
 - 목적 : 텍스트에 내포되어있는 감정을 찾는다.
 - 데이터셋 출처 : [Kaggle Dataset - Emotions in text](https://www.kaggle.com/datasets/ishantjuyal/emotions-in-text)
+- 실습 환경 : Backend.ai (TensorFlow Nvidia GPU Cloud / medium-gpu)
 
 ## 1. Emotions_in_text_NLP.ipynb
 ### (1) 과대적합 이슈
