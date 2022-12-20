@@ -72,3 +72,4 @@ df_hist[["accuracy", "val_accuracy"]].plot(ax=axes[1]).set_title("accuracy : val
   - 텍스트 자체의 길이가 줄어들었음
   - padding 과정에서 maxlen을 작게 설정함
   - 모델 학습 속도가 줄어들었음(simple RNN 모델에선 에포크당 속도가 약 2배 차이)
+  - validation loss(val_loss) 가 이전 그래프보다 더 가파르게 증가함
